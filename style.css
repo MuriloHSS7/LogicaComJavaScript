@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    text-align: center;
+
+
+}
+
+.display {
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: #ea2a15;
+}
+
+.equals {
+    background-color: #3fd97f;
+}
+
+.operator {
+    background-color: #17a7a8;
+}
